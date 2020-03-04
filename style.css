@@ -70,7 +70,11 @@ img{
 @media screen and (max-width: 420px){
 
 .row{
-  width: 100%;
+  max-width: 100%;
+}
+
+.row img{
+  max-width: 100%;
 }
 
 #lezioni .row > .left,
